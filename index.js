@@ -48,7 +48,7 @@ By : ${chalk.bold('Zee#0952')} - Credit : @Zez X Studio
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`User : ${username}`)} | ${chalk.purple(`Trophy : ${trophy}`)} | ${chalk.purple(`Crown : ${crown}`)} | JOKI BY ZEZ `));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`User : ${username}`)} | ${chalk.green(`Trophy : ${trophy}`)} | ${chalk.green(`Crown : ${crown}`)} | ${chalk.red(`JOKI BY ZEZ`)} `));
       await sleep(6000);
 
     } else if (result == 'BANNED') {
