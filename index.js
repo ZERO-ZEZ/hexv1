@@ -49,7 +49,7 @@ By : ${chalk.bold('Zee#0952')} - Credit : @Zez X Studio
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.yellow(`User : ${username}`)} | ${chalk.green(`Trophy : ${trophy}`)} | ${chalk.green(`Crown : ${crown}`)} | ${chalk.red(`JOKI BY ZEZ`)} `));
-      await sleep(5000);
+      await sleep(2000);
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Your Account has been Banned`));
